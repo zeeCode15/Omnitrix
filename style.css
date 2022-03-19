@@ -150,6 +150,11 @@ a:hover
 .contact-me
 {
     width: 40%;
+    margin: auto;
+}
+
+.contact-message
+{
     margin: 40px auto 60px;
 }
 
