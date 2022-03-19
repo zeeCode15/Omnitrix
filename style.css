@@ -1,4 +1,5 @@
 body {
+    color: #40514e;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -22,6 +23,7 @@ h2 {
     font-weight: normal;
 
     letter-spacing: 3px;
+    padding-bottom: 10px;
 
    
 
@@ -35,9 +37,35 @@ h3 {
 
 }
 
+p
+{
+    line-height: 2;
+
+}
+
+.hr
+{   
+    border-style: none;
+    border-top: dotted;
+    border-width: 6px;
+    color: #eaf6f6;
+    width: 4%;
+
+    margin: 100px auto;
+}
+
 a
 {
     color: #11999e;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+
+a:hover
+{
+    color: #eaf6f6;
 
 }
 
@@ -48,21 +76,42 @@ a
 
 }
 
+.middle-container
+{
+    margin: 100px 0 ;
+
+}
+
+.bottom-container
+{
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+
+}
+
 
 
 .pro {
     text-decoration: underline;
 }
 
+.intro
+{
+    
+    margin: auto;
+    width: 50%;
+
+}
+
 .top-cloud {
     position: absolute;
-    right: 20%;
-    top: 50px;
+    right: 300px;
+    top: 40px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 20%;
+    left: 250px;
     bottom: 300px;
 
 }
@@ -81,9 +130,7 @@ a
 {
     width: 50%;
     margin: 100px auto 100px;
-    text-align: left;
-    line-height: 2;
-   
+    text-align: left; 
 }
 
 .code-img
@@ -100,14 +147,30 @@ a
     margin-left: 30px;
 }
 
-.hr
-{   
-    border-style: none;
-    border-top: dotted;
-    border-width: 8px;
-    color: grey;
-    width: 5%;
+.contact-message
+{
+    width: 40%;
+    margin: 40px auto 60px;
 }
+
+.copyright
+{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.anchorP
+{
+    margin: auto;
+}
+
+.anchorP:hover
+{
+    color: #66bfbf;
+}
+
+
 
 .btn {
     background: #11cdd4;
@@ -119,7 +182,7 @@ a
     -webkit-border-radius: 8;
     -moz-border-radius: 8;
     border-radius: 8px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
@@ -136,10 +199,7 @@ a
     text-decoration: none;
   }
 
-  .bottom-container
-  {
-      margin-top: 30px;
-  }
+ 
 
 
 
