@@ -56,21 +56,18 @@ a
 
 .top-cloud {
     position: absolute;
-    right: 300px;
+    right: 20%;
     top: 50px;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 300px;
+    left: 20%;
     bottom: 300px;
 
 }
 
-.mountain-img
-{
-    width: 40%;
-}
+
 
 .profile img {
 
